@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding: 50px 0px 7px 0px;
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
+    font-size: 7vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(230, 230, 230);
+    text-decoration: underline;
+}
+
+section p{
+    margin: 100px 0px 100px 10px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    line-height: 6vw;
+}
+
+.fundo > p{
+    display: inline-block;
+    padding: 10px;
+    background: #000000c3;
+    color: white;   
+}
+
+section#joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+section#livro{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
